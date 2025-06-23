@@ -13,8 +13,9 @@
 display: flex;
 align-items: center;
 background-color:#ffffff ;
-padding: 2rem 3rem;
+padding: 2.2rem 1.7rem;
 text-align: center;
+justify-content: space-between;
 }
 
 .logo {
@@ -22,6 +23,17 @@ text-align: center;
 }
 
 .header-name-1{
-    font-size: 40px;
+    font-size: 35px;
     color: rgb(0, 0, 0);
+}
+
+.left-side{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.right-side{
+    display: flex;
+    gap: 2rem;
 }
