@@ -4,18 +4,24 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+/* This code lets you see visible borders */
+.header-1 *, .header-1{
+    border: 1px dotted black;
+}
 
 .header-1{
-background-color:#111 ;
-color: #ddd;
-padding: 20px;
+display: flex;
+align-items: center;
+background-color:#ffffff ;
+padding: 2rem 3rem;
 text-align: center;
 }
 
-.header-1 nav a {
-    color:  #ccc;
-    margin: 0 10px;
-    text-decoration: none;
+.logo {
+    max-width: 90px;
 }
 
-.header-1 nav
+.header-name-1{
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
