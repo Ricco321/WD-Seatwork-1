@@ -5,21 +5,16 @@
 <br />
 <div align="center">
   <a href="https://github.com/Ricco321/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/TF2.png" alt="Nyebe" width="170" height="120">
+    <img src="./assets/img/Custom logo.png" alt="Nyebe" width="250" height="130">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">WD-Seatwork-1</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
-  This activity demonstrates my skills in making headers and footers
+  This project demonstrates my skills in making various designs of headers and footers.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=Ricco321/WD-Seatwork-1)
 
 
@@ -58,18 +53,17 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
 
-The activity is the first seatwork of the Web Design course. The purpose of this activity is to showcase my understanding and skills in creating headers and footers in using HTML and CSS.
-- What are key components
-- What technology used and how it is used
+This project is the first seatwork for the course, focused on creating a basic single-page website that includes properly structured headers and footers. The goal is to demonstrate an initial understanding of webpage layout and structure using fundamental web development tools.
+
+The main purpose of this project is to showcase the student's understanding of HTML and CSS, specifically how to create and style essential webpage sections such as the header and footer. This exercise serves as a foundation for more advanced web design tasks in the future.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - Single Page Website
-- Parallax transition
-- Transactional
+- Headers
+- Footers
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -115,4 +109,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| W3 Schools| Provides a list of all the HTML tags for reference. | https://www.w3schools.com/ |
