@@ -19,7 +19,7 @@ body{
 /* ====== Compound Codes ======== */
 .header-1,
 .header-2,
-section 
+section
 {
     padding: 0;
     margin: 0;
@@ -33,11 +33,19 @@ section
     padding: 0;
 }
 
+/* ====== CONTAINERS ========= */
+.container-1,
+.container-2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
 
 /* ===== Header 1 ======== */
 .header-1{
-    display: flex;
-    align-items: center;
     background-color:#1b1c27 ;
     font-family: "Roboto", sans-serif;
 }
@@ -120,7 +128,7 @@ section
 {
     border: 1px dotted rgb(255, 0, 0);
     background-color: rgb(243, 248, 250);
-    padding: 1.3rem 1.5rem;
+    padding: 0.3rem 1.0rem;
     justify-content: space-between;
 }
 .header-name-2
