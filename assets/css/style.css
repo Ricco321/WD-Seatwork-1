@@ -1,14 +1,22 @@
+/* Reset and BASE style */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
-/* This code lets you see visible borders */
-/* .header-1 *, .header-1{
-    border: 1px dotted black;
-} */
+html, body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    justify-content: space-between;
+}
 
+
+
+/* ===== Header 1 ======== */
 .header-1{
 display: flex;
 align-items: center;
@@ -16,7 +24,10 @@ background-color:#1b1c27 ;
 padding: 2.2rem 4.5rem;
 font-family: "Roboto", sans-serif;
 }
-
+.header-name-1{
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+}
 .left-side-1,
 .middle-1,
 .right-side-1
@@ -25,12 +36,15 @@ font-family: "Roboto", sans-serif;
     display: flex;
     align-items: center;
 }
-
+.left-side-1{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
 .middle-1
 {
     justify-content: center;
 }
-
 .middle-1 p{
     background-color: black;
     color: white;
@@ -39,53 +53,45 @@ font-family: "Roboto", sans-serif;
     margin: 0;
     text-align: center;
 }
-
-.right-side-1
-{
-    justify-content: flex-end;
-    gap: 3rem;
-}
-
-.left-side-1, .middle-1, .right-side-1
-{
-    border: 1px dotted red;
-}
-
-/* Border guide code */
-.header-2
-{
-    border: 1px dotted rgb(255, 0, 0);
-}
-
-.header-2
-{
-background-color: rgb(247, 250, 255);
-padding: 2rem 3rem;
-justify-content: space-between;
-}
-
-.logo{
-    max-width: 90px;
-}
-
-.header-name-1{
-    font-size: 35px;
-    color: rgb(255, 255, 255);
-}
-
-.left-side-1{
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-}
-
 .right-side-1{
     color: black;
     gap: 3rem;
     display: flex;
     align-items: center;
 }
+.right-side-1
+{
+    justify-content: flex-end;
+    gap: 3rem;
+}
+.left-side-1, .middle-1, .right-side-1
+{
+    border: 1px dotted red;
+}
+.logo{
+    max-width: 90px;
+}
 
+
+
+
+
+/* ========Header 2========== */
+.header-2
+{
+border: 1px dotted rgb(255, 0, 0);
+background-color: rgb(247, 250, 255);
+padding: 2rem 3rem;
+justify-content: space-between;
+}
+.logo-2{
+    max-width: 160px;
+}
+
+
+
+
+/* =========Buttons=========== */
 .btn-1
 {
     color: white;
@@ -99,6 +105,11 @@ justify-content: space-between;
     background-color: #0b0b0c;
     color:rgb(250, 250, 250)
 }
+
+
+
+
+
 /* border code */
 .footer-1
 {
@@ -118,17 +129,9 @@ border: 2px dotted black;
     font-size: 2rem;
 }
 
-html, body{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
 
-body{
-    justify-content: space-between;
-}
 
-.logo-2{
-    max-width: 160px;
-}
+
+
+
 
