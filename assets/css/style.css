@@ -7,7 +7,7 @@
 }
 html, body{
     height: 100%;
-    display: flex;
+    display: block;
     flex-direction: column;
 }
 body{
@@ -16,17 +16,35 @@ body{
 
 
 
+/* ====== Compound Codes ======== */
+.header-1,
+.header-2,
+section 
+{
+    padding: 0;
+    margin: 0;
+}
+
+.logo,
+.logo-2
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
 /* ===== Header 1 ======== */
 .header-1{
-display: flex;
-align-items: center;
-background-color:#1b1c27 ;
-padding: 2.2rem 4.5rem;
-font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    background-color:#1b1c27 ;
+    font-family: "Roboto", sans-serif;
 }
 .header-name-1{
-    font-size: 35px;
+    font-size: 29px;
     color: rgb(255, 255, 255);
+    letter-spacing: .5px;
 }
 .left-side-1,
 .middle-1,
@@ -39,13 +57,15 @@ font-family: "Roboto", sans-serif;
 .left-side-1{
     display: flex;
     align-items: center;
-    gap: .5rem;
+    gap: 1.5rem;
 }
 .middle-1
 {
     justify-content: center;
 }
+
 .middle-1 p{
+    justify-content: center;
     background-color: black;
     color: white;
     font-weight: bold;
@@ -98,11 +118,35 @@ font-family: "Roboto", sans-serif;
 /* ======== Header 2 ========== */
 .header-2
 {
-border: 1px dotted rgb(255, 0, 0);
-background-color: rgb(247, 250, 255);
-padding: 2rem 3rem;
-justify-content: space-between;
+    border: 1px dotted rgb(255, 0, 0);
+    background-color: rgb(243, 248, 250);
+    padding: 1.3rem 1.5rem;
+    justify-content: space-between;
 }
+.header-name-2
+{
+    font-family: "Arial", sans-serif;
+    font-size: 28px;
+    letter-spacing: .7px;
+}
+.left-side-2
+{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.middle-2,
+.middle-2 p
+{
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
 .logo-2{
     max-width: 160px;
 }
@@ -114,7 +158,7 @@ justify-content: space-between;
 /* ======== Footer 1 ======== */
 .footer-1
 {
-border: 2px dotted rgb(255, 0, 0);
+    border: 2px dotted rgb(255, 0, 0);
 }
 
 .footer-1
