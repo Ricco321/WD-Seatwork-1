@@ -1,4 +1,4 @@
-/* Reset and BASE style */
+/*====== Reset and BASE style ======*/
 *{
     padding: 0;
     margin: 0;
@@ -75,23 +75,7 @@ font-family: "Roboto", sans-serif;
 
 
 
-
-/* ========Header 2========== */
-.header-2
-{
-border: 1px dotted rgb(255, 0, 0);
-background-color: rgb(247, 250, 255);
-padding: 2rem 3rem;
-justify-content: space-between;
-}
-.logo-2{
-    max-width: 160px;
-}
-
-
-
-
-/* =========Buttons=========== */
+/* ========= Buttons in Header 1 =========== */
 .btn-1
 {
     color: white;
@@ -110,10 +94,27 @@ justify-content: space-between;
 
 
 
-/* border code */
+
+/* ======== Header 2 ========== */
+.header-2
+{
+border: 1px dotted rgb(255, 0, 0);
+background-color: rgb(247, 250, 255);
+padding: 2rem 3rem;
+justify-content: space-between;
+}
+.logo-2{
+    max-width: 160px;
+}
+
+
+
+
+
+/* ======== Footer 1 ======== */
 .footer-1
 {
-border: 2px dotted black;
+border: 2px dotted rgb(255, 0, 0);
 }
 
 .footer-1
@@ -124,6 +125,10 @@ border: 2px dotted black;
     text-align: center;
 }
 
+
+
+
+/* ====== Misc ======== */
 .my-name{
     text-align: center;
     font-size: 2rem;
