@@ -266,7 +266,7 @@ body{
     padding: 0.3rem 1.0rem;
     justify-content: space-between;
     position: relative;
-    height: 120px;
+    height: 140px;
     background-color: rgb(231, 123, 21);
 }
 
@@ -298,18 +298,175 @@ body{
     letter-spacing: .5px;
 }
 
+.label-3
+{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.label-3 p
+{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    padding: 0.1rem .9rem;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+}
+
+
+
+/* ======== HEADER 4 ========== */
+
+.header-4
+{
+    border: 1px dotted rgb(255, 0, 0);
+    padding: 0.3rem 1.3rem;
+    justify-content: space-between;
+    position: relative;
+    height: 140px;
+    background-color: rgb(61, 218, 69);
+}
+
+.container-4
+{
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 2rem;
+    height: 100%;
+}
+
+.logo-4
+{
+    max-width: 120px;
+}
+
+.header-name-4
+{
+    max-width: 90px;
+}
+
+.label-4
+{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.label-4 p
+{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    padding: 0.1rem .9rem;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+}
+
+
+
+
+/* ========== HEADER 5 ========== */
+.header-5
+{
+    border: 1px dotted rgb(255, 0, 0);
+    padding: 0.3rem 1.3rem;
+    justify-content: space-between;
+    position: relative;
+    height: 140px;
+    background-color: rgb(185, 228, 84);
+}
+
+.container-5
+{
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 2rem;
+    height: 100%;
+}
+
+.logo-5
+{
+    max-width: 120px;
+}
+
+.label-5
+{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.label-5 p
+{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    padding: 0.1rem .9rem;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
 /* ======== Footer 1 ======== */
 .footer-1
 {
     border: 2px dotted rgb(255, 0, 0);
-}
-
-.footer-1
-{
     background-color: #131516;
     color: white;
     padding: 1rem;
     text-align: center;
+}
+
+.label-1
+{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.label-1 p
+{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    padding: 0.1rem .9rem;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
 }
 
 
