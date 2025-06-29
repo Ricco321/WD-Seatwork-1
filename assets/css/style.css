@@ -16,13 +16,14 @@ body{
 
 
 
+
+
+
 /* ====== Compound Codes ======== */
 .header-1,
-.header-2,
-section
+.header-2
 {
-    padding: 0;
-    margin: 0;
+   margin-bottom: 0;
 }
 
 .logo,
@@ -33,6 +34,10 @@ section
     padding: 0;
 }
 
+
+
+
+
 /* ====== CONTAINERS ========= */
 .container-1,
 .container-2 {
@@ -42,7 +47,17 @@ section
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
+.container-1
+{
+    position: relative;
+    justify-content: space-between;
+}
+
+
+
 
 /* ===== Header 1 ======== */
 .header-1{
@@ -58,7 +73,6 @@ section
 .middle-1,
 .right-side-1
 {
-    flex: 1;
     display: flex;
     align-items: center;
 }
@@ -70,8 +84,10 @@ section
 .middle-1
 {
     justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
-
 .middle-1 p{
     justify-content: center;
     background-color: black;
@@ -101,8 +117,6 @@ section
 }
 
 
-
-
 /* ========= Buttons in Header 1 =========== */
 .btn-1
 {
@@ -123,6 +137,7 @@ section
 
 
 
+
 /* ======== Header 2 ========== */
 .header-2
 {
@@ -130,6 +145,9 @@ section
     background-color: rgb(243, 248, 250);
     padding: 0.3rem 1.0rem;
     justify-content: space-between;
+    position: relative;
+    height: 120px;
+    background-color: rgb(243, 248, 250);
 }
 .header-name-2
 {
@@ -154,6 +172,8 @@ section
     text-align: center;
     font-family: "Poppins", sans-serif;
 }
+
+
 
 .logo-2{
     max-width: 160px;
