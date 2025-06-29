@@ -148,7 +148,7 @@ body{
 /* ======== Header 2 ========== */
 .header-2
 {
-    border: 1px dotted rgb(255, 0, 0);
+    /* border: 1px dotted rgb(255, 0, 0); */
     background-color: rgb(243, 248, 250);
     padding: 0.3rem 1.0rem;
     justify-content: space-between;
@@ -280,13 +280,14 @@ body{
 /* ======= Header 3 ========= */
 
 .header-3 {
-    background-color: rgb(231, 123, 21);
+    background-color: rgb(247, 133, 27);
     padding: 0.3rem 1.0rem;
     position: relative;
     height: 170px;
     display: flex;
     align-items: center;
     justify-content: center;
+background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 50%, rgb(221, 74, 30) 100%);
 }
 
 .container-3
@@ -451,12 +452,13 @@ body{
 
 .header-4
 {
-    border: 1px dotted rgb(255, 0, 0);
+    /* border: 1px dotted rgb(255, 0, 0); */
     padding: 0.3rem 1.3rem;
     justify-content: space-between;
     position: relative;
     height: 140px;
     background-color: rgb(61, 218, 69);
+background: linear-gradient(to bottom, rgb(61, 218, 69) 0%, rgb(49, 150, 29) 50%, rgb(29, 102, 21) 100%);
 }
 
 .container-4
@@ -586,12 +588,14 @@ body{
 /* ========== HEADER 5 ========== */
 .header-5
 {
-    border: 1px dotted rgb(255, 0, 0);
+    /* border: 1px dotted rgb(255, 0, 0); */
     padding: 0.3rem 1.3rem;
     justify-content: space-between;
     position: relative;
     height: 140px;
-    background-color: rgb(185, 228, 84);
+    background-color: rgb(187, 189, 59);
+    background: linear-gradient(to bottom, rgb(187, 189, 59) 0%, rgb(90, 110, 34) 50%, rgb(29, 102, 21) 100%);
+    
 }
 
 .container-5
@@ -627,7 +631,7 @@ body{
 
 .highlight-name-5
 {
-    color: rgb(190, 41, 41);
+    color: rgb(136, 14, 14);
 }
 .label-5
 {
