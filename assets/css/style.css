@@ -284,6 +284,7 @@ body{
 
 /* ====== Misc ======== */
 .my-name{
+    padding: 2rem;
     text-align: center;
     font-size: 2rem;
 }
