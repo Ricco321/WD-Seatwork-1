@@ -289,7 +289,7 @@ body{
     justify-content: center;
 }
 
-.container-3 
+.container-3
 {
     width: 100%;
     max-width: 1200px;
@@ -473,15 +473,6 @@ body{
     height: 100%;
 }
 
-.logo-4
-{
-    max-width: 120px;
-}
-
-.header-name-4
-{
-    max-width: 90px;
-}
 
 .label-4
 {
@@ -504,7 +495,90 @@ body{
     border-radius: 5px;
 }
 
+.left-side-4 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;
+}
 
+.logo-4 {
+    max-width: 100px;
+}
+
+.header-name-4 {
+    max-width: 200px;
+    height: auto;
+}
+
+.right-side-4 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    font-family: "Roboto", sans-serif;
+}
+
+.burger-btn {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.burger-btn:hover {
+    transform: scale(1.1);
+}
+
+.menu-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 50%;
+    right: 120%; /* place menu to the left of the burger */
+    transform: translateY(-50%) translateX(20px); /* start slightly off to the right */
+    background-color: #2e2e2e;
+    color: white;
+    padding: 0.8rem 1.2rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    display: flex;
+    gap: 2rem;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 10;
+}
+
+/* Show animation */
+.menu-wrapper.show-menu .dropdown-menu {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(-50%) translateX(0); /* slide into place */
+}
+
+.dropdown-menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.2s ease;
+    padding: 0.5rem 1rem;
+    background-color: rgba(255,255,255,0.05);
+    border-radius: 6px;
+    white-space: nowrap;
+}
+
+.dropdown-menu a:hover {
+    color: #4caf50;
+    background-color: rgba(255,255,255,0.15);
+}
 
 
 /* ========== HEADER 5 ========== */
