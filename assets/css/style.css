@@ -581,6 +581,8 @@ body{
 }
 
 
+
+
 /* ========== HEADER 5 ========== */
 .header-5
 {
@@ -611,6 +613,22 @@ body{
     max-width: 120px;
 }
 
+.left-side-5
+{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    justify-content: flex-start;
+    flex: 1;
+    font-family: "Creepster", system-ui;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.highlight-name-5
+{
+    color: rgb(190, 41, 41);
+}
 .label-5
 {
     position: absolute;
@@ -632,7 +650,78 @@ body{
     border-radius: 5px;
 }
 
+.burger-icon {
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 1rem;
+    color: #333;
+}
 
+.container-5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-side-5 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 1;
+}
+
+
+.middle-5 {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.search-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 450px; /* Longer width */
+}
+
+.search-box {
+    padding: 0.5rem 2.5rem 0.5rem 1rem;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #555;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    color: #555;
+    pointer-events: none;
+}
+
+/* Remove link styling and only show user icon */
+.right-side-5 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.signup-icon {
+    font-size: 26px;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Optional spacing for burger + left side */
+.burger-icon {
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 1rem;
+    color: #333;
+}
 
 
 
