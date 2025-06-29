@@ -145,9 +145,6 @@ body{
 
 
 
-
-
-
 /* ======== Header 2 ========== */
 .header-2
 {
@@ -224,7 +221,7 @@ body{
     gap: 2rem;
     flex: 1;
     font-size: 18px;
-    font-family: "Ariel", sans-serif;
+    font-family: "Arial", sans-serif;
 }
 .nav-links-2
 {
@@ -262,8 +259,44 @@ body{
 
 
 
+/* ======= Header 3 ========= */
+.header-3
+{
+    border: 1px dotted rgb(255, 0, 0);
+    padding: 0.3rem 1.0rem;
+    justify-content: space-between;
+    position: relative;
+    height: 120px;
+    background-color: rgb(231, 123, 21);
+}
 
+.container-3
+{
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 2rem;
+    height: 100%;
+}
 
+.logo-3
+{
+    max-width: 200px;
+}
+
+.header-name-3
+{
+    color: rgb(37, 37, 37);
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: .5px;
+}
 
 /* ======== Footer 1 ======== */
 .footer-1
