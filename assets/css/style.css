@@ -896,12 +896,12 @@ ul{
 .footer-4
 {
     background: linear-gradient(to bottom, rgb(138, 68, 10) 20%, rgb(91, 91, 94) 42%, rgb(24, 23, 36) 90%);
-    padding: 0.3rem 1.0rem;
+    padding: 3rem 2rem;
     position: relative;
-    height: 10rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    font-family: "Poppins", sans-serif;
 }
 
 .label-footer-4
@@ -922,36 +922,143 @@ ul{
     border-radius: 5px;
 }
 
+.footer-container-4 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.footer-left {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-logo {
+  width: 13rem;
+  margin-bottom: .5rem;
+}
+
+.footer-social-icons a {
+  margin-right: 1rem;
+  font-size: 18px;
+  color: #b9b9b9;
+  transition: color 0.3s ease;
+}
+
+.footer-social-icons a:hover {
+  color: #007bff;
+}
+
+.footer-links {
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+  min-width: 300px;
+  gap: 3rem;
+}
+
+.link-section h4 {
+  margin-bottom: 1rem;
+  font-size: 16px;
+  color: #eeeeee;
+}
+
+.link-section a {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #979797;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.link-section a:hover {
+  color: #000;
+}
+
+.label-footer-4 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.label-footer-4 p {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0;
+  padding: 0.1rem .9rem;
+  border-radius: 5px;
+}
+
 /* ======== Footer 5 ========== */
 
-.footer-5
-{
-    background: linear-gradient(to bottom, rgb(29, 102, 21) 0%, rgb(26, 37, 25) 50%, rgb(41, 18, 18) 100%);
-    padding: 0.3rem 1.0rem;
-    position: relative;
-    height: 10rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.footer-5 {
+  background: linear-gradient(to bottom, rgb(29, 102, 21) 20%, rgb(37, 59, 37) 42%, rgb(10, 20, 10) 90%);
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  position: relative;
 }
 
-.label-footer-5
-{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
+.container-footer-5 {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.label-footer-5 p{
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
-    margin: 0;
-    padding: 0.1rem .9rem;
-    font-family: "Poppins", sans-serif;
-    border-radius: 5px;
+.left-side-footer-5 .footer-logo-5 {
+  max-width: 120px;
+}
+
+.center-footer-5 {
+  text-align: center;
+  font-size: 0.9rem;
+  flex: 1;
+}
+
+.center-footer-5 .highlight-5 {
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+.right-side-footer-5 a {
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  color: #444;
+  transition: color 0.3s ease;
+}
+
+.right-side-footer-5 a:hover {
+  color: orangered;
+}
+
+.label-footer-5 {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.label-footer-5 p {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 0;
+  padding: 0.1rem 0.8rem;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
 }
 
 /* ====== Misc ======== */
