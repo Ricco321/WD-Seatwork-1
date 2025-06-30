@@ -788,8 +788,38 @@ background: linear-gradient(to bottom, rgb(61, 218, 69) 0%, rgb(49, 150, 29) 50%
 
 
 /* ======== Footer 2 ======== */
+.footer-2
+{
+    background-color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
 
+.social-icons-2 a
+{
+    margin-bottom: 1rem;
+}
 
+.social-icons-2 a{
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-icons-2 a:hover
+{
+    color: #00acee;
+}
+
+.copyright
+{
+    font-size: 14px;
+    color: #ccc;
+}
 
 /* ====== Misc ======== */
 .my-name{
