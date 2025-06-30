@@ -345,13 +345,10 @@ background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 5
 
 .btn-3-outline
 {
+    display: flex;
     padding: 0.5rem 1rem;
-    border: 2px solid black;
-    border-radius: 9999px;
-    color: black;
     font-weight: bold;
     font-size: 14px;
-    display: flex;
     align-items: center;
     gap: 0.5rem;
     transition: all 0.3s ease;
@@ -731,13 +728,13 @@ background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 5
 .footer-text-1
 {
     font-family: "Arial", sans-serif;
-    font-size: .9rem;
+    font-weight: bold;
+    font-size: 1rem;
     letter-spacing: .1rem;
 }
 .label-footer-1
 {
     position: absolute;
-    bottom: .1rem;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -807,11 +804,29 @@ background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 5
     background-color: rgb(247, 133, 27);
     padding: 0.3rem 1.0rem;
     position: relative;
-    height: 6rem;
+    height: 8rem;
     display: flex;
     align-items: center;
     justify-content: center;
 background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 50%, rgb(221, 74, 30) 100%);
+}
+
+.label-footer-3
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.label-footer-3 p{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    padding: 0.1rem .9rem;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
 }
 
 /* ====== Misc ======== */
