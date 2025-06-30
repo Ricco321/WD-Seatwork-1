@@ -83,6 +83,7 @@ max-width: 5rem;
     font-size: 29px;
     color: rgb(255, 255, 255);
     letter-spacing: 2px;
+    text-shadow: 0 0 8px rgb(185, 185, 185), 0 0 12px rgb(185, 185, 185);
 }
 
 .middle-1
@@ -191,6 +192,7 @@ max-width: 5rem;
     font-weight: bold;
     font-size: 1.8rem;
     letter-spacing: .2rem;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.479);
 }
 
 .middle-2
@@ -329,6 +331,7 @@ background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 5
     font-size: 1.8rem;
     color: black;
     cursor: pointer;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.479);
 }
 
 .center-3
@@ -385,15 +388,6 @@ background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 5
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
-.header-name-3
-{
-    color: rgb(37, 37, 37);
-    font-family: "Arial", sans-serif;
-    font-weight: bold;
-    font-size: 28px;
-    letter-spacing: .5px;
-}
-
 .label-3
 {
     position: absolute;
@@ -435,6 +429,7 @@ background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 5
     right: 1.5rem;  /* Adjust as needed */
     top: 50%;
     transform: translateY(-50%);
+    font-family: "Roboto", sans-serif;
 }
 
 
@@ -447,7 +442,7 @@ background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 5
     position: relative;
     height: 8rem;
     background-color: rgb(61, 218, 69);
-    background: linear-gradient(to bottom, rgb(61, 218, 69) 0%, rgb(30, 112, 19) 50%, rgb(139, 93, 23) 90%);
+    background: linear-gradient(to bottom, rgb(61, 218, 69) 0%, rgb(30, 112, 19) 50%, rgb(138, 68, 10) 87%);
 }
 .container-4
 {
@@ -496,7 +491,7 @@ background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 5
 }
 
 .header-name-4 {
-    max-width: 12rem;
+    max-width: 14rem;
     height: auto;
 }
 
@@ -546,6 +541,7 @@ background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 5
     pointer-events: none;
     transition: opacity 0.3s ease, transform 0.3s ease;
     z-index: 10;
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.479);
 }
 
 .menu-wrapper.show-menu .dropdown-menu
@@ -582,8 +578,7 @@ background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 5
     justify-content: space-between;
     position: relative;
     height: 140px;
-    background-color: rgb(187, 189, 59);
-    background: linear-gradient(to bottom, rgb(187, 189, 59) 0%, rgb(90, 110, 34) 50%, rgb(29, 102, 21) 100%);
+    background: linear-gradient(to bottom, rgb(187, 189, 59) 2%, rgb(67, 78, 36) 50%, rgb(29, 102, 21) 105%);
 }
 .container-5
 {
@@ -606,6 +601,7 @@ background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 5
 
 .left-side-5
 {
+    color: #fdf9f9;
     display: flex;
     align-items: center;
     gap: 1.2rem;
@@ -618,7 +614,7 @@ background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 5
 
 .highlight-name-5
 {
-    color: rgb(136, 14, 14);
+    color: rgb(194, 21, 21);
 }
 
 .label-5
@@ -660,6 +656,7 @@ background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 5
     align-items: center;
     gap: 1rem;
     flex: 1;
+    text-shadow: 1px 4px 2px rgba(0, 0, 0, 0.479);
 }
 
 .middle-5 {
@@ -778,6 +775,7 @@ background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 5
 {
     font-size: 14px;
     color: #4e4e4e;
+    letter-spacing: .2rem;
 }
 
 .label-footer-2
@@ -819,6 +817,36 @@ background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 5
     text-align: center;
 }
 .label-footer-3 p{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    padding: 0.1rem .9rem;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+}
+
+/* ======== Footer 4 ======== */
+.footer-4
+{
+    background: linear-gradient(to bottom, rgb(138, 68, 10) 20%, rgb(91, 91, 94) 42%, rgb(24, 23, 36) 90%);
+    padding: 0.3rem 1.0rem;
+    position: relative;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.label-footer-4
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.label-footer-4 p{
     background-color: black;
     color: white;
     font-weight: bold;
