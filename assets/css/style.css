@@ -715,7 +715,6 @@ background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 5
 .footer-1
 {
     display: flex;
-    border: 2px dotted rgb(255, 0, 0);
     background-color: #131516;
     color: white;
     padding: 3rem;
@@ -800,13 +799,79 @@ background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 5
 .footer-3
 {
     background-color: rgb(247, 133, 27);
-    padding: 0.3rem 1.0rem;
+    padding: 0.4rem 1.4rem;
     position: relative;
-    height: 8rem;
+    height: 15rem;
     display: flex;
     align-items: center;
     justify-content: center;
 background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 50%, rgb(221, 74, 30) 100%);
+font-family: "Arial", sans-serif;
+}
+.container-footer-3
+{
+    max-width: 50rem;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col
+{
+    width: 50%;
+    padding: 0 10rem;
+}
+
+.footer-col h4{
+    font-size: 20px;
+    color: #ffe70f;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: bold;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+}
+
+.footer-col h4::before
+{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom:  -.5rem;
+    background-color: #271d18;
+    height: 2px;
+    box-sizing: border-box;
+    width: 5rem;
+}
+
+.footer-col ul li:not(:last-child)
+{
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 17px;
+    text-transform: capitalize;
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(54, 39, 27);
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover
+{
+    color: white;
+    padding-left: 10px;
 }
 
 .label-footer-3
@@ -847,6 +912,38 @@ background: linear-gradient(to bottom, rgb(247, 133, 27) 0%, rgb(226, 144, 20) 5
     text-align: center;
 }
 .label-footer-4 p{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+    padding: 0.1rem .9rem;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+}
+
+/* ======== Footer 5 ========== */
+
+.footer-5
+{
+    background: linear-gradient(to bottom, rgb(29, 102, 21) 0%, rgb(26, 37, 25) 50%, rgb(41, 18, 18) 100%);
+    padding: 0.3rem 1.0rem;
+    position: relative;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.label-footer-5
+{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.label-footer-5 p{
     background-color: black;
     color: white;
     font-weight: bold;
