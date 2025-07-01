@@ -110,3 +110,5 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | W3 Schools| Provides a list of all the HTML tags for reference. | https://www.w3schools.com/ |
+| Youtube| For watching tutorials and some crash course. | https://www.youtube.com/ |
+| ChatGpt| Created prompt the overview | https://chatgpt.com/?model= |
